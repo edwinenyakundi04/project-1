@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>BEAUTYCOUNTS.COM</title>
+    <link rel="stylesheet" href="beauty.css" />
+    <script src="beauty.js" defer></script>
+</head>
+<div class="container">
+<div class="header">
+  <h1>YOUR BEAUTY COUNTS!!!</h1>
+</div>
+<div class="wrapper clear-fix">
+  <div class="nav">
+  <ul>
+  <li><a href="REGISTER.html">REGISTER</a></li>
+  <li><a href="LOGIN.html">LOGIN</a></li>
+  <li><a href="SOCIAL.html">SOCIAL MEDIA</a></li>
+  <li><a href="ABOUT.html">ABOUT US</a></li>
+  <li><a href="CONTACTS.html">CONTACTS</a></li>
+  <li><a href="EVENTS.html">EVENTS</a></li>
+  </ul>
+  </div>
+  
+  <div class="content">
+    welcome......
+    make money from thy beauty.<br>
+    <legend>
+    <form id="login"method="POST">
+        LOGIN FORM<br />
+        E-MAIL  :<input type="email"id="mail"placeholder="example navyzeal2@gmail.com"required>
+        <br />
+        PASSWORD:<input type="password"id="pass"required><br />
+        <input type="button"id="lgbtn"class="logbtn"value="LOGIN">OR  <input type="button"id="rgbtn"class="regbtn"value="REGISTER"><br />
+        forgot your password?click here to <a href="reset">RESET PASSWORD</a>
+        
+      </form>
+</legend>
+  
+
+  </div>
+</div>
+</div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCuAVUverY981A6WbML0cv5ChED77E5VCA",
+    authDomain: "beautycounts-1674204718069.firebaseapp.com",
+    projectId: "beautycounts-1674204718069",
+    storageBucket: "beautycounts-1674204718069.appspot.com",
+    messagingSenderId: "656913151926",
+    appId: "1:656913151926:web:032e8c5f02633f1269f317",
+    measurementId: "G-P3QF8HRGKD"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+<body>
+    
+</body>
+
+</html>
